@@ -9,7 +9,7 @@ public class ejercicio9 {
         int num;
         do {
             Scanner leer = new Scanner(System.in);
-            System.out.println("Ingrese numero");
+            System.out.println("Ingrese número");
             num = leer.nextInt();
 
             if (num > 0){
