@@ -42,7 +42,7 @@ public class ejPractico6 {
                     Scanner sn = new Scanner(System.in);
                     System.out.println("¿Está seguro que desea salir del programa (S/N)?");
                     String salir = sn.nextLine();
-                    if (salir.equals("s") || salir.equals("S")) {
+                    if (salir.equalsIgnoreCase("s")) {
                         cerrar = true;
                     }
             }
