@@ -1,4 +1,4 @@
-package guia3;
+package guia3.ejerciciosGuia;
 
 import java.util.Scanner;
 import java.util.jar.JarOutputStream;
