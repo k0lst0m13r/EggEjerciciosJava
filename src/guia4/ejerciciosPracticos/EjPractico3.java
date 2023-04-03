@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EjPractico3 {
     public static void main(String[] args) {
-        Scanner cant =new Scanner(System.in);
+        Scanner cant = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de Euros");
         int euros = cant.nextInt();
         Scanner leer = new Scanner(System.in);
