@@ -12,6 +12,8 @@ public class ejPractico4 {
     }
 
     public static boolean esPrimo(int numero) {
+
+        // está mal (revisar formula)
         if ((numero % 2 == 0 || numero % 3 == 0) && (numero != 2 && numero != 3)) {
             return false;
         } else {
