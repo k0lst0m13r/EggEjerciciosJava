@@ -19,7 +19,7 @@ public class Circunferencia {
     public void crearCircunferencia() {
         System.out.println("Ingrese un radio");
         Scanner sc = new Scanner(System.in);
-        setRadio(sc.nextDouble());
+        radio = sc.nextDouble();
     }
     public double area(){
         double area = Math.PI * Math.pow(radio,2);
