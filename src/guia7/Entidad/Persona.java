@@ -1,4 +1,4 @@
-package guia6.Entidad;
+package guia7.Entidad;
 
 public class Persona {
     String nombre;
